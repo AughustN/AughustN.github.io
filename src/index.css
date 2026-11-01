@@ -555,22 +555,32 @@ a:hover {
   opacity: 0;
 }
 
-.loader-bar {
-  width: 160px;
-  height: 1px;
-  background: var(--border);
+.loader-trace {
+  display: block;
+  width: 240px;
+  height: 56px;
+  overflow: visible;
 }
 
-.loader-bar span {
-  display: block;
-  height: 100%;
-  background: var(--text);
+.loader-trace path {
+  fill: none;
+  stroke-linejoin: round;
+}
+
+.loader-trace-track {
+  stroke: var(--border);
+  stroke-width: 1;
+}
+
+.loader-trace-line {
+  stroke: var(--text);
+  stroke-width: 1.25;
 }
 
 .loader-text {
   display: flex;
   justify-content: space-between;
-  width: 160px;
+  width: 240px;
   margin-top: 12px;
 }
 

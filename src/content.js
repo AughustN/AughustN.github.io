@@ -6,9 +6,9 @@ export const profile = {
   location: { en: 'Ho Chi Minh City, Vietnam' },
   // Các dòng tiêu đề đổi luân phiên ở đầu trang.
   headlines: [
-    { en: 'Data Science Student' },
-    { en: 'Data Tool Builder' },
-    { en: 'Machine Learning Learner' },
+    { en: 'Computer Vision' },
+    { en: 'Healthcare AI' },
+    { en: 'Cognitive Science' },
   ],
   intro: {
     en: 'I build data-driven tools and study machine learning. Currently looking for internship opportunities.',
